@@ -1,0 +1,242 @@
+.container {
+	width: 100%;
+	height: 100vh;
+	background-color: #191919;
+	overflow-x: hidden;
+	background-size: cover;
+	.header-container {
+		height: 120px;
+		width: 100%;
+		.header {
+			width: 100%;
+			height: 70px;
+			.header-logo {
+				width: 50px;
+				margin-left: calc((100% - 50px)/2);
+				margin-top: 10px;
+				float: left;
+			}
+			.ham-but {
+				float: right;
+				margin: 27.5px 20px 0 0;
+			}
+		}
+		.nav-bar-container {
+			width: 100%;
+			height: 50px;
+			margin-left: 100%;
+			background-color: #181818;
+			overflow: hidden;
+			transition: 0.3s;
+			.nav-bar {
+				width: 100%;
+				height: 50px;
+				.nav-link-container {
+					width: 20%;
+					height: 50px;
+					float: left;
+					text-align: center;
+					.nav-icon {
+						width: 30px;
+						height: 30px;
+						margin-top: 10px;
+						color: $code-color;
+						opacity: 0.3;
+					}
+					p {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+	.pages {
+		width: 90%;
+		margin: 0 0 0 5%;
+		color: $code-color;
+		.page-title {
+			font: 200 2rem 'Roboto Mono', monospace;
+		}
+		.underscore {
+			animation: flashing 1s infinite;
+			font: 200 2rem 'Roboto Mono', monospace;
+		}
+	}
+	.home  {
+		font: 400 2rem 'Roboto Mono', monospace;
+		height: 150px;
+		.name, .last-name, .web-developer{
+			display: none;
+		}
+		.flashing {
+			animation: flashing 1s infinite;
+			font: 400 2rem 'Roboto Mono', monospace;
+		}
+		@keyframes flashing {
+			0% {opacity: 0%;}
+			50% {opacity: 100%;}
+			100% {opacity: 0%;}
+		}
+	}
+	.page-paragraph {
+		width: 90%;
+		margin-top: 0.8rem;
+		font: 200 0.8rem 'Roboto Mono', monospace;
+	}
+	@keyframes animation-from-left-1 {
+		0% {margin-left: -100%;}
+		100% {margin-left: 5%;}
+	}
+	@keyframes animation-from-right-1 {
+		0% {margin-left: 100%;}
+		100% {margin-left: 10%;}
+	}
+	@keyframes animation-from-left-3 {
+		0% {margin-left: -100%;}
+		50% {margin-left: -100%;}
+		100% {margin-left: 5%;}
+	}
+	@keyframes animation-from-left-2 {
+		0% {margin-left: -100%;}
+		25% {margin-left: -100%;}
+		100% {margin-left: 5%;}
+	}
+	.about {
+		.about-first-paragraph {
+			margin-left: 5%;
+			animation: animation-from-left-1 0.5s ease-out 1;
+		}
+		.about-second-paragraph {
+			animation: animation-from-right-1 0.5s ease-out 1;
+			margin-left: 10%;
+		}
+		.about-third-paragraph {
+			margin-left: 5%;
+			animation: animation-from-left-2 0.75s ease-out 1;
+		}
+		.my-image {
+			width: 250px;
+			height: 250px;
+			background-size: cover;	
+			bottom: 0;
+			position: fixed;
+			margin-left: calc(100% - 250px);
+			animation: image-positioning 0.5s ease-out 1;
+		}
+		@keyframes image-positioning {
+			0% {margin-left: 100%;}
+			20% {margin-left: 100%;}
+			100% {margin-left: calc(100%-250px);}
+		}
+	}
+	.skills {
+		.skills-first-paragraph {
+			margin-left: 5%;
+			animation: animation-from-left-1 0.5s ease-out 1;
+		}
+		.skills-second-paragraph {
+			margin-left: 5%;
+			animation: animation-from-left-2 0.75s ease-out 1;
+		}
+		.skills-third-paragraph {
+			margin-left: 5%;
+			animation: animation-from-left-3 1s ease-out 1;
+		}
+		.skills-image {
+			width: 300px;
+			height: 300px;
+			background-size: cover;	
+			animation: spin 20s infinite linear;
+			bottom: -70px;
+			position: fixed;
+			margin-left: calc(100% - 250px);
+		}
+		.set-image-horizontal {
+			height: 75px;
+			width: 1px;
+		}
+		.react-image {
+			width: 150px;
+			height: 150px;
+			background-size: cover;
+			margin: 0 auto;
+			animation: spin-reverse 10s infinite linear;
+		}
+		@keyframes spin {
+			100% {transform: rotate(360deg);}
+		}
+		@keyframes spin-reverse {
+			100% {transform: rotate(-360deg);}
+		}
+	}
+	.mywork {
+		.bloom-logo {
+			width: 150px;
+			height: 150px;
+			background-size: cover;
+			margin: 50px auto;
+			animation: logoShow 1s ease-out 1;
+		}
+	}
+	.contact {
+		.contact-first-paragraph {
+			margin-left: 5%;
+			animation: animation-from-left-1 0.5s ease-out 1;
+		}
+		.contact-second-paragraph {
+			margin-left: 5%;
+			animation: animation-from-left-2 0.75s ease-out 1;
+		}
+		.contact-contact {
+			margin: 20px 0 0 10%;
+			height: 40px;
+			width: 90%;
+			animation: animation-from-right-1 0.5s ease-out 1;
+			.contact-contact-icons {
+				width: 35px;
+				height: 35px;
+				color: $code-color;
+				margin-top: 2.5px;
+				float: left;
+			}
+			.contact-paragraph {
+				color: $code-color;
+				padding: 10px 0 0 50px;
+			}
+		}
+	}
+	.footer {
+		width: 100%;
+		height: 80px;
+		position: absolute;
+		bottom: 20px;
+		.footer-contact {
+			width: 20%;
+			height: 80px;
+			float: left;
+			text-align: center;
+			.footer-contact-icons {
+				width: 35px;
+				height: 35px;
+				color: $code-color;
+				margin-top: 22.5px;
+			}
+		}
+	}
+}
+.my-canvas {
+	width: 100%;
+	height: 300px;
+	margin-top: 30px;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
+    -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important; 
+    outline: none !important;
+	touch-action: none;
+	text-align: center;
+	opacity: 0.7;
+	animation: logoShow 1s ease-out 1;
+}
+@keyframes logoShow {
+	0% {opacity: 0%;}
+	100% {opacity: 70%;}
+}

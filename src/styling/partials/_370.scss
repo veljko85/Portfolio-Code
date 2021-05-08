@@ -1,0 +1,41 @@
+@media screen and (max-width: 370px){
+	.container {
+        .pages {
+            .page-title {
+                font: 200 1.5rem 'Roboto Mono', monospace;
+            }
+            .underscore {
+                font: 200 1.5rem 'Roboto Mono', monospace;
+            }
+        }
+        .home  {
+            font: 400 1.5rem 'Roboto Mono', monospace;
+            height: 110px;
+            .flashing {
+                font: 400 1.5rem 'Roboto Mono', monospace;
+            }
+        }
+        .page-paragraph {
+            width: 95%;
+            margin-top: 0.6rem;
+            font: 200 0.65rem 'Roboto Mono', monospace;
+        }
+        .contact {
+            .contact-contact {
+                .contact-contact-icons {
+                    width: 25px;
+                    height: 25px;
+                }
+                .contact-paragraph {
+                    padding: 8px 0 0 40px;
+                }
+            }
+        }
+        .footer {
+            bottom: 0;
+        }
+    }
+    .my-canvas {
+        margin-top: 20px;
+    }
+}
