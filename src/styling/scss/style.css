@@ -76,6 +76,7 @@
 }
 
 .container .pages .underscore {
+  opacity: 1;
   -webkit-animation: flashing 1s infinite;
           animation: flashing 1s infinite;
   font: 200 2rem 'Roboto Mono', monospace;
@@ -93,6 +94,7 @@
 .container .home .flashing {
   -webkit-animation: flashing 1s infinite;
           animation: flashing 1s infinite;
+  opacity: 1;
   font: 400 2rem 'Roboto Mono', monospace;
 }
 
@@ -339,8 +341,6 @@
   height: 150px;
   background-size: cover;
   margin: 50px auto;
-  -webkit-animation: logoShow 1s ease-out 1;
-          animation: logoShow 1s ease-out 1;
 }
 
 .container .contact .contact-first-paragraph {
@@ -408,26 +408,6 @@
       touch-action: none;
   text-align: center;
   opacity: 0.7;
-  -webkit-animation: logoShow 1s ease-out 1;
-          animation: logoShow 1s ease-out 1;
-}
-
-@-webkit-keyframes logoShow {
-  0% {
-    opacity: 0%;
-  }
-  100% {
-    opacity: 70%;
-  }
-}
-
-@keyframes logoShow {
-  0% {
-    opacity: 0%;
-  }
-  100% {
-    opacity: 70%;
-  }
 }
 
 @media screen and (max-width: 370px) {
@@ -614,24 +594,6 @@
     width: 50%;
     margin: 0 0 0 50px;
     color: #48ff00;
-    -webkit-animation: pageShow 1s ease-out 1;
-            animation: pageShow 1s ease-out 1;
-  }
-  @-webkit-keyframes pageShow {
-    0% {
-      opacity: 0%;
-    }
-    100% {
-      opacity: 100%;
-    }
-  }
-  @keyframes pageShow {
-    0% {
-      opacity: 0%;
-    }
-    100% {
-      opacity: 100%;
-    }
   }
   .container .pages .page-title {
     margin-left: 20px;
@@ -981,24 +943,6 @@
         touch-action: none;
     text-align: center;
     opacity: 0.7;
-    -webkit-animation: logoShow 1s ease-out 1;
-            animation: logoShow 1s ease-out 1;
-  }
-  @-webkit-keyframes logoShow {
-    0% {
-      opacity: 0%;
-    }
-    100% {
-      opacity: 70%;
-    }
-  }
-  @keyframes logoShow {
-    0% {
-      opacity: 0%;
-    }
-    100% {
-      opacity: 70%;
-    }
   }
 }
 
@@ -1064,30 +1008,13 @@
     width: 50%;
     margin: 0 0 0 50px;
     color: #48ff00;
-    -webkit-animation: pageShow 1s ease-out 1;
-            animation: pageShow 1s ease-out 1;
-  }
-  @-webkit-keyframes pageShow {
-    0% {
-      opacity: 0%;
-    }
-    100% {
-      opacity: 100%;
-    }
-  }
-  @keyframes pageShow {
-    0% {
-      opacity: 0%;
-    }
-    100% {
-      opacity: 100%;
-    }
   }
   .container .pages .page-title {
     margin-left: 20px;
     font: 200 2.5rem 'Roboto Mono', monospace;
   }
   .container .pages .underscore {
+    opacity: 1;
     -webkit-animation: flashing 1s infinite;
             animation: flashing 1s infinite;
     font: 200 2.5rem 'Roboto Mono', monospace;
@@ -1100,6 +1027,7 @@
     display: none;
   }
   .container .home .flashing {
+    opacity: 1;
     -webkit-animation: flashing 1s infinite;
             animation: flashing 1s infinite;
     font: 400 3rem 'Roboto Mono', monospace;
@@ -1443,24 +1371,6 @@
         touch-action: none;
     text-align: center;
     opacity: 0.7;
-    -webkit-animation: logoShow 1s ease-out 1;
-            animation: logoShow 1s ease-out 1;
-  }
-  @-webkit-keyframes logoShow {
-    0% {
-      opacity: 0%;
-    }
-    100% {
-      opacity: 70%;
-    }
-  }
-  @keyframes logoShow {
-    0% {
-      opacity: 0%;
-    }
-    100% {
-      opacity: 70%;
-    }
   }
 }
 
@@ -1526,24 +1436,6 @@
     width: 50%;
     margin: 0 0 0 50px;
     color: #48ff00;
-    -webkit-animation: pageShow 1s ease-out 1;
-            animation: pageShow 1s ease-out 1;
-  }
-  @-webkit-keyframes pageShow {
-    0% {
-      opacity: 0%;
-    }
-    100% {
-      opacity: 100%;
-    }
-  }
-  @keyframes pageShow {
-    0% {
-      opacity: 0%;
-    }
-    100% {
-      opacity: 100%;
-    }
   }
   .container .pages .page-title {
     margin-left: 20px;
@@ -1905,24 +1797,6 @@
         touch-action: none;
     text-align: center;
     opacity: 0.7;
-    -webkit-animation: logoShow 1s ease-out 1;
-            animation: logoShow 1s ease-out 1;
-  }
-  @-webkit-keyframes logoShow {
-    0% {
-      opacity: 0%;
-    }
-    100% {
-      opacity: 70%;
-    }
-  }
-  @keyframes logoShow {
-    0% {
-      opacity: 0%;
-    }
-    100% {
-      opacity: 70%;
-    }
   }
 }
 /*# sourceMappingURL=style.css.map */

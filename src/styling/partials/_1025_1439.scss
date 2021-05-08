@@ -62,11 +62,6 @@
             width: 50%;
             margin: 0 0 0 50px;
             color: $code-color;
-            animation: pageShow 1s ease-out 1;
-            @keyframes pageShow {
-                0% {opacity: 0%;}
-                100% {opacity: 100%;}
-            }
             .page-title {
                 margin-left: 20px;
                 font: 200 2rem 'Roboto Mono', monospace;
@@ -282,11 +277,6 @@
         touch-action: none;
         text-align: center;
         opacity: 0.7;
-        animation: logoShow 1s ease-out 1;
-    }
-    @keyframes logoShow {
-        0% {opacity: 0%;}
-        100% {opacity: 70%;}
     }
 
 }
