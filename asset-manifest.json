@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-Code/static/css/main.de75ef60.chunk.css",
+    "main.css": "/Portfolio-Code/static/css/main.c8b0886c.chunk.css",
     "main.js": "/Portfolio-Code/static/js/main.08e65da4.chunk.js",
     "main.js.map": "/Portfolio-Code/static/js/main.08e65da4.chunk.js.map",
     "runtime-main.js": "/Portfolio-Code/static/js/runtime-main.77bb7d4c.js",
@@ -10,7 +10,7 @@
     "static/js/3.ac69f083.chunk.js": "/Portfolio-Code/static/js/3.ac69f083.chunk.js",
     "static/js/3.ac69f083.chunk.js.map": "/Portfolio-Code/static/js/3.ac69f083.chunk.js.map",
     "index.html": "/Portfolio-Code/index.html",
-    "static/css/main.de75ef60.chunk.css.map": "/Portfolio-Code/static/css/main.de75ef60.chunk.css.map",
+    "static/css/main.c8b0886c.chunk.css.map": "/Portfolio-Code/static/css/main.c8b0886c.chunk.css.map",
     "static/js/2.126438a3.chunk.js.LICENSE.txt": "/Portfolio-Code/static/js/2.126438a3.chunk.js.LICENSE.txt",
     "static/media/codeBackground-mob.4d1449e2.png": "/Portfolio-Code/static/media/codeBackground-mob.4d1449e2.png",
     "static/media/codeBackground.64b0e17a.png": "/Portfolio-Code/static/media/codeBackground.64b0e17a.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.77bb7d4c.js",
     "static/js/2.126438a3.chunk.js",
-    "static/css/main.de75ef60.chunk.css",
+    "static/css/main.c8b0886c.chunk.css",
     "static/js/main.08e65da4.chunk.js"
   ]
 }
