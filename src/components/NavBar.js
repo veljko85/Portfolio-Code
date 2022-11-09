@@ -8,9 +8,9 @@ import { AiOutlineUser } from "react-icons/ai";
 
 const NavBar = () => {
   const navIcon = document.getElementsByClassName("nav-icon");
-  const navLinkContainer = document.getElementsByClassName(
-    "nav-link-container"
-  );
+  const navLinkContainer =
+    document.getElementsByClassName("nav-link-container");
+
   const styleNavIcons = (icon) => {
     if (window.innerWidth < 1025) {
       for (let i = 0; i < navIcon.length; i++) {
