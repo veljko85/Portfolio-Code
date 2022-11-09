@@ -1,5 +1,5 @@
 import logoBloom from "../img/logoblomm1.png";
-
+import logoVertical from "../img/vertical_logo-small.png";
 import myWork from "../img/myWork.png";
 
 const Mywork = () => {
@@ -11,6 +11,12 @@ const Mywork = () => {
         <div
           className="bloom-logo"
           style={{ backgroundImage: `url(${logoBloom})` }}
+        ></div>
+      </a>
+      <a href="http://work.quincemedia.com/zgrada/" target="blank">
+        <div
+          className="bloom-logo"
+          style={{ backgroundImage: `url(${logoVertical})` }}
         ></div>
       </a>
       {window.innerWidth > 1024 && (
